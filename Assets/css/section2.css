@@ -1,0 +1,132 @@
+section.section2 {
+  padding: 0px 30px;
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+
+section.section2 .container2 {
+  margin: 0 auto;
+  height: calc(100% - 80px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: calc(100vh - 200px) calc(100vh - 200px); */
+  max-width: 1200px;
+  gap: 100px;
+}
+
+.section2 .container2 .image {
+  position: relative;
+}
+
+.section2 .container2 .icon {
+  width: 70px;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+}
+
+.section2 .container2 .text {
+  margin-top: 70px;
+}
+
+.section2 .container2 h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.section2 .container2 p {
+  font-size: 18px;
+}
+
+.section2 .strip {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index: -1;
+
+  /* transform: translateX(-50%); */
+}
+
+@media only screen and (min-width: 1600px) {
+  .section2 .strip {
+    bottom: -50px;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  section.section2 .container2 {
+    gap: 40px;
+  }
+  .section2 .container2 .text {
+    margin-top: 40px;
+  }
+
+  .section2 .container2 h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .section2 .container2 p {
+    font-size: 16px;
+  }
+
+  .section2 .strip {
+    bottom: -10px;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .section2 .container2 .text {
+    margin-top: 10px;
+  }
+  .section2 .strip {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  section.section2 {
+    margin-top: 60px;
+  }
+
+  section.section2 .container2 {
+    display: block;
+    max-width: 320px;
+  }
+
+  .section2 .container2 .image {
+    position: relative;
+  }
+
+  .section2 .container2 .icon {
+    width: 30px;
+
+    top: -13px;
+    right: -13px;
+  }
+
+  .section2 .container2 .text {
+    margin-top: 36px;
+  }
+
+  .section2 .container2 h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .section2 .container2 p {
+    font-size: 14px;
+  }
+
+  .section2 .strip {
+    display: block;
+    /* position: static; */
+    bottom: -100px;
+
+    /* transform: translateX(-50%); */
+  }
+}
