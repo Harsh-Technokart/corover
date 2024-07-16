@@ -10158,7 +10158,6 @@ body.woocommerce-order-received .order_details li {
   padding: 0 !important;
 }
 .th-header-wrap .elementor-icon-box-description {
-  white-space: pre-line;
 }
 .elementor-widget-themo-header .th-header-wrap .elementor-icon,
 .elementor-widget-themo-header.elementor-view-default
@@ -10290,7 +10289,6 @@ body.woocommerce-order-received .order_details li {
   .th-info-card-wrap
   .elementor-icon-box-description {
   color: #5c5c5c;
-  white-space: pre-line;
 }
 .elementor-widget-themo-info-card .th-info-card-wrap .th-btn-wrap {
   margin-top: 25px;
@@ -10609,7 +10607,6 @@ body.woocommerce-order-received .order_details li {
   .elementor-icon-box-title {
 }
 .th-service-block-w .elementor-icon-box-description {
-  white-space: pre-line;
 }
 .th-service-block-w a.elementor-icon,
 .th-service-block-w a.elementor-icon:hover {
@@ -10964,7 +10961,6 @@ a.slider-scroll-down {
 }
 .th-team-member-text {
   margin-top: 15px;
-  white-space: pre-line;
 }
 .th-team-member-social {
   margin: 6px 0 0;
