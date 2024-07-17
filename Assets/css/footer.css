@@ -1,0 +1,185 @@
+html > body > footer {
+  background-color: #202020;
+  color: white;
+}
+
+html > body > footer .copyright {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 25px;
+}
+
+html > body > footer .container2 {
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  gap: 80px;
+  padding: 50px 40px;
+  padding-bottom: 0px;
+}
+
+html > body > footer a {
+  display: block;
+  width: fit-content;
+  font-size: 14px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+html > body > footer a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+html > body > footer p {
+  font-size: 14px;
+  margin-top: 8px;
+  color: white;
+}
+
+html > body > footer h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 13px;
+  color: white;
+  font-weight: 700;
+}
+
+html > body > footer .logo {
+  width: 140px;
+  margin: 0 !important;
+}
+
+html > body > footer #contact a,
+html > body > footer #contact p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 10px;
+}
+
+html > body > footer #contact p {
+  margin-top: 20px;
+}
+
+html > body > footer #contact a i,
+html > body > footer #contact p i {
+  font-size: 16px;
+}
+
+html > body > footer #contact p i {
+  margin-left: -2px;
+}
+
+html > body > footer .column {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; */
+}
+
+html > body > footer .column > div {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+html > body > footer .social-media {
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 6px;
+}
+
+html > body > footer .social-media i {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 800px) {
+  html > body > footer .container2 {
+    display: block;
+
+    padding: 30px 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  html > body > footer .column > div {
+    margin-bottom: 0px;
+  }
+
+  html > body > footer h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #3b3b3b;
+    padding-bottom: 0px;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  html > body > footer .column > div .content {
+    display: none;
+    padding: 12px 20px;
+    padding-top: 0px;
+  }
+
+  html > body > footer .column:last-of-type > div h2 {
+    border-bottom: none;
+  }
+
+  html > body > footer .selected-footer-link .content {
+    display: block !important;
+  }
+
+  html > body > footer .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #3b3b3b;
+    padding-bottom: 22px;
+  }
+
+  html > body > footer .social-media {
+    margin: 0;
+    margin-top: 0px;
+  }
+
+  html > body > footer h2::after {
+    content: "+";
+    right: 18px;
+    position: absolute;
+  }
+
+  html > body > footer .selected-footer-link h2::after {
+    content: "-";
+    right: 18px;
+    position: absolute;
+    font-size: 28px;
+    top: 12px;
+  }
+
+  html > body > footer p {
+    margin-top: 18px;
+  }
+
+  html > body > footer a {
+    margin-top: 22px;
+    font-size: 16px;
+  }
+
+  html > body > footer a {
+    margin-top: 22px;
+    font-size: 16px;
+  }
+
+  html > body > footer .logo {
+    width: 110px;
+  }
+}
