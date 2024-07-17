@@ -1,0 +1,124 @@
+.elementor-16828
+  .elementor-element.elementor-element-f0903a1:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-16828
+  .elementor-element.elementor-element-f0903a1
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #91bad5;
+  background-image: url("content/uploads/2023/02/robot-hand-side-view-background-presenting-technology-gesture-scaled.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.elementor-16828 .elementor-element.elementor-element-f0903a1 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 222px 0px;
+}
+.elementor-16828
+  .elementor-element.elementor-element-f0903a1
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-16828
+  .elementor-element.elementor-element-11b0cec
+  > .elementor-element-populated {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-16828
+  .elementor-element.elementor-element-0112220
+  > .elementor-container
+  > .elementor-row
+  > .elementor-column
+  > .elementor-column-wrap
+  > .elementor-widget-wrap {
+  align-content: center;
+  align-items: center;
+}
+.elementor-16828 .elementor-element.elementor-element-0112220 {
+  margin-top: 45px;
+  margin-bottom: 23px;
+  padding: 32px 0px 0px 0px;
+}
+.elementor-16828
+  .elementor-element.elementor-element-75594d3
+  > .elementor-element-populated {
+  margin: -54px 0px 70px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-16828 .elementor-element.elementor-element-2ed78fe {
+  text-align: center;
+}
+.elementor-16828
+  .elementor-element.elementor-element-2ed78fe
+  .elementor-heading-title {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.elementor-16828 .elementor-element.elementor-element-6f4375d {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.elementor-16828 .elementor-element.elementor-element-1b5dc33 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.elementor-16828 .elementor-element.elementor-element-35640b9 {
+  text-align: center;
+}
+.elementor-16828
+  .elementor-element.elementor-element-3efe104
+  .elementor-spacer-inner {
+  height: 40px;
+}
+body.elementor-page-16828 h1.entry-title {
+  margin-top: 1px;
+}
+:root {
+  --page-title-display: none;
+}
+@media (min-width: 768px) {
+  .elementor-16828 .elementor-element.elementor-element-539d0b9 {
+    width: 30.456%;
+  }
+  .elementor-16828 .elementor-element.elementor-element-b15443c {
+    width: 38.492%;
+  }
+  .elementor-16828 .elementor-element.elementor-element-f032d05 {
+    width: 30.716%;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-16828
+    .elementor-element.elementor-element-f0903a1:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-16828
+    .elementor-element.elementor-element-f0903a1
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-image: url("content/uploads/2023/02/robot-hand-side-view-background-presenting-technology-gesture-scaled.jpg");
+    background-size: cover;
+  }
+  .elementor-16828 .elementor-element.elementor-element-f0903a1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px -1px 0px;
+  }
+}
+@media (min-width: 1025px) {
+  .elementor-16828
+    .elementor-element.elementor-element-f0903a1:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-16828
+    .elementor-element.elementor-element-f0903a1
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-attachment: scroll;
+  }
+}
